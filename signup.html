@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamBuzz</title>
+    <style>
+        body {
+  background-image: url('https://d10ea7ajzb99l3.cloudfront.net/limcollege.edu/assets/2020-08/student_life_hero.jpg?VersionId=pEtyuBRc0JofE2Hv4qBYYmOdrLMHe1db'); /* URL to image */
+  background-size: cover; /* Scales the image */
+}
+.heading{
+  font-size: 50px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+.subheading{
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+.stud{
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+.org{
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+.studsignup {
+  padding: 10px 20px; /* Padding around the button text */
+  font-size: 16px; /* Font size */
+  background-color: #4CAF50; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Button hover effect */
+.studsignup:hover {
+  background-color: #45a049; /* Change background color on hover */
+}
+/* Basic button styling */
+.orgsignup {
+  padding: 10px 20px; /* Padding around the button text */
+  font-size: 16px; /* Font size */
+  background-color: #4CAF50; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Button hover effect */
+.orgsignup:hover {
+  background-color: #45a049; /* Change background color on hover */
+}
+    </style>
+</head>
+<body>
+  <h1 class="heading">Time to create your Profile</h1>
+  <h2 class="subheading">Select the account type of your need:</h2>
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">I am a Student</h5>
+            <p class="card-text">Be a part of Cambuzz's vibrant community<br> and avail its different functionalities like<br> Food Recommendations, Vehicle Pooling, and Event Hub</p>
+            <button class="studsignup" onclick="window.location.href='studsignup.html'">Signup Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">We are an Organisation</h5>
+            <p class="card-text">Join hands with Cambuzz and be able to<br> provide services on a much larger platform </p>
+            <button class="orgsignup" onclick="window.location.href='orgsignup.html'">Signup Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
